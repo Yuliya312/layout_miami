@@ -239,6 +239,9 @@ h1 {
   opacity: 1;
   z-index: 4; }
 
+.nav__toggler:checked ~ .nav-mobile {
+  display: block; }
+
 .nav-mobile__logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -290,9 +293,7 @@ h1 {
   .nav__toggler-label {
     display: inline-block; }
     .nav__toggler-label::before {
-      display: inline-block; }
-  .nav__toggler:checked ~ .nav-mobile {
-    display: block; } }
+      display: inline-block; } }
 
 .heading {
   display: block;
