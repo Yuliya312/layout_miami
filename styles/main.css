@@ -85,10 +85,6 @@ h1 {
     color: white;
     -webkit-transition: background-color 0.2s;
     transition: background-color 0.2s; }
-    .header__top:hover {
-      opacity: 0.8; }
-    .header__top:active {
-      background-color: rgba(255, 255, 255, 0.1); }
   .header__phone {
     margin: o 82px;
     -webkit-transition: -webkit-transform 0.3s;
@@ -115,6 +111,10 @@ h1 {
     color: white;
     text-transform: uppercase;
     border-bottom: 1px solid white; }
+    .header__link:hover {
+      opacity: 0.8; }
+    .header__link:active {
+      background-color: rgba(255, 255, 255, 0.1); }
   .header__title {
     position: absolute;
     bottom: 165px;
@@ -676,5 +676,8 @@ body {
 
 strong {
   font-weight: 500; }
+
+html {
+  scroll-behavior: smooth; }
 
 /*# sourceMappingURL=main.css.map */
